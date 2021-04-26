@@ -1,8 +1,8 @@
 <h1 align="center">Welcome to Rechner 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
-  <a href="https://twitter.com/Zero\_\_0815" target="_blank">
-    <img alt="Twitter: Zero\_\_0815" src="https://img.shields.io/twitter/follow/Zero\_\_0815.svg?style=social" />
+  <a href="https://twitter.com/Zero__0815" target="_blank">
+    <img alt="Twitter: Zero__0815" src="https://img.shields.io/twitter/follow/Zero__0815.svg?style=social" />
   </a>
 </p>
 
