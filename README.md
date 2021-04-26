@@ -35,7 +35,7 @@ Innerhalb des laufenden Programms die gewünschte Option eingeben und mit Enter 
 
 * Twitter: [@Zero\_\_0815](https://twitter.com/Zero\_\_0815)
 * Github: [@Zero0815](https://github.com/Zero0815)
-* LinkedIn: [@dennis-ludolph-9a5b05184](https://linkedin.com/in/dennis-ludolph-9a5b05184)
+* LinkedIn: [@Dennis Ludolph](https://linkedin.com/in/dennis-ludolph-9a5b05184)
 
 ## Show your support
 
