@@ -9,7 +9,7 @@
   </a>
 </p>
 
-> Dieser Rechner bietet die Möglichkeit verschiedene Rechnung automatisch und einfach zu erledigen. So ist es zum Beispiel möglich direkt von der Seite a bei einem Würfel alle Ausgaben (Volumen, Oberfläche, Diagonale) zu bekommen. !!! Wichtig, hierbei handelt es sich um ein Übungsprojekt, weshalb Bugs o.ä. auftreten können. !!! Requirements: Python 3.x, math, matplotlib, time, numpy, sklearn - Ein paar dieser Bibliotheken werde aktuell noch nicht angesprochen, werden aber in zukünftigen Versionen benutzt!
+> Dieser Rechner bietet die Möglichkeit verschiedene Rechnung automatisch und einfach zu erledigen. So ist es zum Beispiel möglich direkt von der Seite a bei einem Würfel alle Ausgaben (Volumen, Oberfläche, Diagonale) zu bekommen. !!! Wichtig, hierbei handelt es sich um ein Übungsprojekt, weshalb Bugs o.ä. auftreten können. !!! Requirements: Python 3.x, math, matplotlib, time, numpy, sklearn - Ein paar dieser Bibliotheken werden aktuell noch nicht angesprochen, werden aber in zukünftigen Versionen benutzt!
 
 ## Install
 
