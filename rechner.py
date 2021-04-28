@@ -128,10 +128,23 @@ class geometrie:
         print('Die Oberfläche beträgt: {}\nDer Umfang beträgt: {}\nDie Diagonale beträgt: {}'.format(oberflaeche, umfang, diagonale))
         time.sleep(3)
 
+    # Dreieckberechnung Rechtwinkliges Dreieck
+    def dreieck_rechtwinklig():
+        print('Du hast die Dreiecksberechnung (Rechtwinklig) ausgewählt!')
+        time.sleep(2)
+        a = float(input('Bitte gebe die Länge von Seite a ein: ')) # Eingabe Seite a
+        b = float(input('Bitte gebe die Länge von Seite b ein: ')) # Eingabe Seite b
+        c_quadrat = (a ** 2) + (b ** 2) # Berechnung von c^2
+        c = np.sqrt(c_quadrat) # Berechnung von c
+
+        print(f'Die Länge von Seite c ist: {round(c, 2)}\nc^2 ist: {c_quadrat}')
+        time.sleep(3)
+
+    
     # Dreieckberechnung
     def dreieck():
         pass
-    
+
     # Würfelberechnung
     def wuerfel():
         print('Du hast die Würfelberechnung ausgewählt!')
@@ -896,9 +909,12 @@ class abfrageAktion:
         while True:
             # Aktionsabfrage.
             befehl = input('Was möchtest du tun?\n'
-            '1 für plotMuster, 2 für Additionen, 3 für Subtraktionen,\n4 für Multiplikationen, 5 für Divisionen, 6 für Kreisberechnungen,\n'
-            '7 für Rechtecksberechnungen, 8 für Quadrasberechnungen, 9 für Würfelberechnungen,\n10 für Quaderberechnungen, 11 für Kugelberechnungen,'
-            ' 12  für Fakultät,\n13 für Primfaktorzerlegung, exit um das Programm zu beenden: ')
+            '1 für plotMuster, 2 für Additionen, 3 für Subtraktionen,\n'
+            '4 für Multiplikationen, 5 für Divisionen, 6 für Kreisberechnungen,\n'
+            '7 für Rechtecksberechnungen, 8 für Quadratberechnungen, 9 für Dreiecksberechnungen (Rechtwinklig),\n'
+            '10 für Würfelberechnungen, 11 für Quaderberechnungen, 12 für Kugelberechnungen,\n'
+            '13  für Fakultät, 14 für Primfaktorzerlegung,'
+            '\nexit um das Programm zu beenden: ')
 
 
             # Befehlsabfrage.
@@ -918,15 +934,17 @@ class abfrageAktion:
                 geo.rechteck()
             elif befehl == '8': # Ausgabe der Quadratberechnungsfunktion
                 geo.quadrat()
-            elif befehl == '9': # Ausgabe der Würfelberechnungsfunktion
+            elif befehl == '9': # Ausgabe der Dreiecksberechnungfunktion (Rechtwinklig)
+                geo.dreieck_rechtwinklig()
+            elif befehl == '10': # Ausgabe der Würfelberechnungsfunktion
                 geo.wuerfel()
-            elif befehl == '10': # Ausgabe der Quaderberechnungsfunktion
+            elif befehl == '11': # Ausgabe der Quaderberechnungsfunktion
                 geo.quader()
-            elif befehl == '11': # Ausgabe der Kugelberechnungsfunktion
+            elif befehl == '12': # Ausgabe der Kugelberechnungsfunktion
                 geo.kugel()
-            elif befehl == '12': # Ausgabe der Fakultätberechnungsfunktion
+            elif befehl == '13': # Ausgabe der Fakultätberechnungsfunktion
                 erweitert.fakultaet()
-            elif befehl == '13': # Ausgabe der Primfaktozerlegungsfunktion
+            elif befehl == '14': # Ausgabe der Primfaktozerlegungsfunktion
                 erweitert.primfaktorzerlegung()
             elif befehl == 'exit': # Beenden des Programms
                 break
