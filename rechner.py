@@ -130,7 +130,7 @@ class geometrie:
 
     # Dreieckberechnung Rechtwinkliges Dreieck
     def dreieck_rechtwinklig():
-        print('Du hast die Dreiecksberechnung (Rechtwinklig) ausgewählt!')
+        print('Du hast die Dreiecksberechnung (Rechtwinklig) ausgewählt!-')
         time.sleep(2)
         a = float(input('Bitte gebe die Länge von Seite a ein: ')) # Eingabe Seite a
         b = float(input('Bitte gebe die Länge von Seite b ein: ')) # Eingabe Seite b
